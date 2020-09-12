@@ -1,0 +1,45 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+header {
+  background: #fff;
+}
+
+div.container {
+  display: inline-block;
+  text-align: justify;
+}
+
+div.content {
+  max-width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: auto 20px 20px 0px;
+  position: relative;
+}
+
+p > span.hard-word {
+  background-color: red;
+  display: inline;
+}
+
+p {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  border: 5px solid blue;
+}
+
+.list-items > ul {
+  list-style-type: none;
+}
+
+.nav-header {
+  display: flex;
+}
